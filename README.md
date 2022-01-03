@@ -17,10 +17,11 @@ Upload all extracted files to extension directory.
 
 Login to a server via ssh client
 Go to Magento home directory
-Run the following ssh commands:
-php -f bin/magento setup:upgrade;
-php -f bin/magento setup:di:compile;
-php -f bin/magento setup:static-content:deploy;
+
+>`$>Run the following ssh commands:
+>`$>php -f bin/magento setup:upgrade;
+>`$>php -f bin/magento setup:di:compile;
+>`$>php -f bin/magento setup:static-content:deploy;
 
 
 Enjoy!
